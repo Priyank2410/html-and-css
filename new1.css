@@ -1,0 +1,52 @@
+.parrent{
+    display:flex;
+    height:60px;
+    background-color: black;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(250, 248, 248);
+    
+}
+
+#child{
+    /* display: flex; */
+    height: 80px;
+    /* justify-content: space-between; */
+    width: 400px;
+    
+    color: white;
+}
+a{
+    color: white;
+}
+
+@media (max-width:480px){
+    .parrent{
+        display:flex;
+        flex-direction:column;
+        height: auto;
+    }
+
+    #child{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+}
+
+.new{
+    height: 400px;
+    width: 200px;
+    background-color: rgb(86, 33, 33);
+    transition-duration: 4000ms;
+}
+
+.new:hover{
+    background-color: rgb(51, 168, 71);
+    height: 400px;
+    width: 400px;
+
+
+}

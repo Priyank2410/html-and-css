@@ -1,0 +1,27 @@
+#container{
+    height: 400px;
+    width: 880px;
+    border: 2px solid black;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+}
+.box1{
+    background-color: yellow;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: red;
+}
+.box4{
+    background-color: green;
+}

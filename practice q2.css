@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p1{
+    text-transform: capitalize;
+}
+
+p2{
+    font-family: 'Times New Roman';
+}
+
+#outer{
+    font-size: 25px;
+}
+
+#inner{
+    font-size: 10px;
+}
+
+div2{
+    height: 100px;
+    background-color: pink;
+}

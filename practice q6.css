@@ -1,0 +1,23 @@
+div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    position: relative;
+   animation: colorchange 1s ease-in  infinite alternate;
+    
+    
+    
+}
+@keyframes colorchange {
+    0% {top: 0px;}
+    50% {transform: rotate(270deg);}
+    100% {top: 525px;}
+    
+    
+        
+}
